@@ -7,20 +7,6 @@ This guide will help you set up the project locally using Docker and Bun.
 - [Docker](https://www.docker.com/get-started)
 - [Bun](https://bun.sh/)
 
-If you don't have Bun installed, you can install it using the following commands:
-
-- Mac/Linux:
-
-  ```bash
-  curl -fsSL https://bun.sh/install | bash
-  ```
-
-- Windows (PowerShell):
-
-  ```powershell
-  powershell -c "irm bun.sh/install.ps1 | iex"
-  ```
-
 ## Setup Instructions
 
 1. Clone the repository:
