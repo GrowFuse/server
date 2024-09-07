@@ -28,7 +28,13 @@ This guide will help you set up the project locally using Docker and Bun.
    bun install
    ```
 
-4. Start the Docker containers:
+4. Apply database migrations:
+
+   ```bash
+   bun prisma db:push
+   ```
+
+5. Start the Docker containers:
 
    ```bash
    docker-compose up -d

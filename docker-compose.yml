@@ -25,10 +25,10 @@ services:
   hono:
     image: oven/bun:latest
     container_name: growuse_hono
-    working_dir: /src # Set working directory to /src
+    working_dir: /app # Set working directory to /src
     volumes:
-      - .:/src # Mount the project directory to /src
-    command: bun run --hot src/index.ts # Run the development server with hot reloading
+      - .:/app # Mount the project directory to /src
+    command: bun run --hot app.ts # Run the development server with hot reloading
     ports:
       - "3000:3000"
     depends_on:

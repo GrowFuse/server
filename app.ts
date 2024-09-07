@@ -1,5 +1,8 @@
 import { Hono } from "hono";
 
+// load .env and verify
+await import("env");
+
 const app = new Hono();
 
 app.get("/", (c) => {
